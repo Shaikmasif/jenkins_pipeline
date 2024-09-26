@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<link rel="stylesheet" th:href="@{/css/forgot.css}">
+<link rel="icon" th:href="@{/img/icon.png}">
+<script>
+ function check(){
+	password = document.getElementById('password').value;
+	confirm = document.getElementById('confirm').value;
+	if(password == confirm){
+		document.getElementById('passwordForm').submit();
+	}else{
+		alert("Password Didn't Matched");
+		location.reload();
+	}
+	
+ }
+</script>
+</head>
+<body>
+	<header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="TuneHub Logo">
+            <a href="tunehub" style="color: white;text-decoration: none;"><h1>TuneHub</h1></a>
+        </div>
+        
+    </header>
+	<div class="heading">
+	
+	<h2>Forgot Password ?</h2>
+	</div>
+	<div class="login">
+	<h4> Set a New Password </h4>
+	<form action="forgot" method="post" onSubmit="check()" id="passwordForm"> 
+		<label>Enter Your Email</label> <input type="email" name="email" placeholder="email" required><br>
+		<label id="new">New Password</label> <input type="password" name="password" id="password" required placeholder="New Password"><br>
+		<label>Confirm Password</label><input type="password" name="confirm" id="confirm" required placeholder="Confirm Password"><br>
+		<input type="submit">
+	</form>
+	</div>
+</body>
+</html>

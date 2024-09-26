@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+<link rel="stylesheet" th:href="@{/css/registration.css}">
+<link rel="icon" href="img/icon.png">
+
+</head>
+<body>
+	<header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="TuneHub Logo">
+            <a href="tunehub" style="color: white;text-decoration: none;"><h1>TuneHub</h1></a>
+        </div>
+        
+    </header>
+	<div class="heading">
+		<h1>TuneHub</h1>
+		<h3>Welcome to the Music World.</h3>
+	</div>
+	<div class="register">
+	<h4>REGISTRATION</h4>
+	<form action="/register" method="post">
+		<label>username</label> <input type="text" name="username"><br>
+		<label>email</label> <input type="email" name="email"><br>
+		<label>password</label> <input type="password" name="password"><br>
+		
+		<label>gender</label> <input type="radio" name="gender" value="male"><label class="gender">male</label>
+		<input type="radio" name="gender" value="female"><label class="gender">female</label>
+		<input type="radio" name="gender" value="others"><label class="gender">others</label><br>
+		<label id="role">role</label> <input type="radio" name="role" value="admin"><label class="role">admin</label>
+		<input type="radio" name="role" value="customer"><label class="role">customer</label><br>
+		<label>address</label>
+		<textarea name="address"></textarea><br>
+		<input type="submit">
+	</form>
+	
+	<p><a href="login">Already Registered ?</a></p>
+	</div>
+</body>
+</html>

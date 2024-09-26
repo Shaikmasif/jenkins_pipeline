@@ -1,0 +1,150 @@
+@charset "ISO-8859-1";
+* {
+    font-family: cursive;
+}
+
+body {
+  
+    background-image: url("img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+h4{
+    font-size: larger;
+    margin-top: 2%;
+    width: fit-content;
+    margin: 3% auto 6% auto;
+}
+.heading{
+    width: 30%;
+    margin: auto;
+    text-align: center; 
+    margin-top: 4%; 
+}
+.heading h3{
+    margin-top: 3%;
+    font-family: cursive;
+}
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    font-family: cursive;
+}
+
+.register {
+    border: 2px solid black;
+    width: 30%;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px black;
+    margin: auto;
+    border-radius: 5%;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+label {
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+    font-size: medium;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    background: transparent;
+}
+
+input[type=radio] {
+    margin-right: 5px;
+    background: transparent;
+}
+.gender{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.role{
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+#role{
+    margin-right: 8%;
+}
+input[type=submit] {
+    width: 40%;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    background: transparent;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: black; /* Light text color */
+    background-image: url("/img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.rounded-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+textarea {
+    width: 80%;
+    margin-left: 10%;
+    background: transparent;
+}
+p{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 2%;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+

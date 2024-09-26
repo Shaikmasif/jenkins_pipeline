@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+.content{
+    width: fit-content;
+    margin: 0 auto;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: black; /* Light text color */
+    background-image: url("/img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.rounded-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+}
+p{
+	font-size: medium;
+}
+.content{
+	width: 100%;
+	color: black;
+}
+.song-gallery {
+	width: 100%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3%; 
+}
+h3{
+    color: black;
+    font-family: cursive;
+}
+.song {
+   
+    text-align: center;
+}
+
+.song img {
+    width: 200px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 8px;
+}
+
+.song p {
+    margin: 5px 0;
+}
+audio{
+    width: 200px;
+}

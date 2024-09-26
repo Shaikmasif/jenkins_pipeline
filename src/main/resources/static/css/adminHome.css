@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+*{
+	font-family: cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
+    background-image: url("/img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+
+.rounded-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+}
+a{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: cursive;
+}
+.content{
+    width: fit-content;
+    margin: 0 auto;
+    color: black;
+}

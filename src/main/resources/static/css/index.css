@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+* {
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: black; /* Light text color */
+    background-image: url("/img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+}
+h2{
+	text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.rounded-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sign-in {
+    background-color: white;
+    font-weight: bold;
+}
+
+.sign-up {
+    background-color: white;
+    font-weight: bold;
+}
+
+.page-info {
+    margin: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2, p {
+    color: black; /* Light text color */
+}
+
+.subscribe-now {
+    margin-top: 50px;
+    background-color: whitesmoke; /* Golden yellow color for the subscribe button */
+    color: #333;
+    font-weight: bold;
+}
+.song-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+h3{
+    color: black;
+    font-family: cursive;
+}
+.song {
+   
+    text-align: center;
+}
+
+.song img {
+    width: 200px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 8px;
+}
+
+.song p {
+    margin: 5px 0;
+}
+audio{
+    width: 200px;
+}

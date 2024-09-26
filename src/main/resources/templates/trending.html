@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Adding Song</title>
+<link rel="stylesheet" th:href="@{/css/trending.css}">
+<link rel="icon" th:href="@{/img/icon.png}">
+
+</head>
+<body>
+	<header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="TuneHub Logo">
+            <a href="tunehub" style="color: white;text-decoration: none;"><h1>TuneHub</h1></a>
+        </div>
+		<div class="buttons">
+            <a href="logout" class="rounded-button">Logout</a>
+        </div>
+    </header>
+	<div class="song-details">
+	<h1>Trending Song Details :</h1>
+	<form action="trendingSong" method="post">
+		<label>Song Image : </label><input type="text" name="image" /><br>
+		<label>Song Title : </label><input type="text" name="title"/><br>
+		<label>Song Artist : </label><input type="text" name="artist"/><br>
+		<label>Song Type : </label><input type="text" name="type"/><br>
+		<label>Song Link :</label><input type="text" name="link"/><br>
+		<input type="submit" value="ADD SONG"/>
+	</form>
+	</div>
+</body>
+</html>

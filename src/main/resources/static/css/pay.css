@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
+    background-image: url("/img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.rounded-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.subscribe-now {
+    margin-top: 50px;
+    background-color: whitesmoke; /* Golden yellow color for the subscribe button */
+    color: #333;
+    font-weight: bold;
+}
+.content{
+    width: fit-content;
+    margin: 0 auto;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+}
